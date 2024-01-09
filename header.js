@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <header>
+    <header class="sticky-top">
     <div class="container">
       <nav class="navbar navbar-expand-lg py-4">
         <a class="navbar-brand" href="index.html"><img width="150px" src="./img/migradas-logo.webp" /></a>

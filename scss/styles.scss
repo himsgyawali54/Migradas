@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 :root {
   font-size: 62.5%;
-  --color-primary: #FF6C22;
+  --color-primary: #ff6c22;
   --color-secondary: #ffcb71;
   --color-accent: #9d6400;
   --color-terniary: #333;
@@ -108,6 +108,7 @@ img {
 }
 header {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
   nav {
     .nav-item {
       .nav-link {
@@ -196,84 +197,84 @@ header {
       }
     }
   }
- 
-.visas-to-abroad {
-  .row {
-    .card {
-      height: 100%;
-      transition: transform 0.3s ease-in-out;
-      &:hover {
-        transform: scale(1.03);
-      }
-      &.student-card {
-        background: url("../img/visa-to-abroad-card-1.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: normal;
-      }
-      &.partner-card {
-        background: url("../img/visa-to-abroad-card-2.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: normal;
-      }
-      &.graduate-card {
-        background: url("../img/visa-to-abroad-card-3.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: normal;
-      }
-      &.parent-card {
-        background: url("../img/visa-to-abroad-card-4.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: normal;
-      }
-      &.general-skilled-card {
-        background: url("../img/visa-to-abroad-card-5.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: normal;
-      }
-      &.student-dependent-card {
-        background: url("../img/visa-to-abroad-card-6.webp");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-blend-mode: normal;
-      }
-      img {
-        border-top-left-radius: 0.5rem;
-        border-top-right-radius: 0.5rem;
-        padding: 1rem;
-      }
-      .card-body {
-        position: relative;
-        padding: 2rem;
-        h3 {
-          padding-top: 1rem;
+
+  .visas-to-abroad {
+    .row {
+      .card {
+        height: 100%;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+          transform: scale(1.03);
         }
-        p {
-          font-size: 15px;
+        &.student-card {
+          background: url("../img/visa-to-abroad-card-1.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
         }
-        .card-icon {
-          position: absolute;
-          right: 8%;
-          top: -17%;
-          border-radius: 0.5rem;
-          background-color: #fff;
-          padding: 1.5rem 1rem 0;
-          i {
-            font-size: var(--h3-fontsize);
-            background-color: var(--color-primary);
-            padding: 1rem;
+        &.partner-card {
+          background: url("../img/visa-to-abroad-card-2.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+        }
+        &.graduate-card {
+          background: url("../img/visa-to-abroad-card-3.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+        }
+        &.parent-card {
+          background: url("../img/visa-to-abroad-card-4.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+        }
+        &.general-skilled-card {
+          background: url("../img/visa-to-abroad-card-5.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+        }
+        &.student-dependent-card {
+          background: url("../img/visa-to-abroad-card-6.webp");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-blend-mode: normal;
+        }
+        img {
+          border-top-left-radius: 0.5rem;
+          border-top-right-radius: 0.5rem;
+          padding: 1rem;
+        }
+        .card-body {
+          position: relative;
+          padding: 2rem;
+          h3 {
+            padding-top: 1rem;
+          }
+          p {
+            font-size: 15px;
+          }
+          .card-icon {
+            position: absolute;
+            right: 8%;
+            top: -17%;
             border-radius: 0.5rem;
-            color: #fff;
+            background-color: #fff;
+            padding: 1.5rem 1rem 0;
+            i {
+              font-size: var(--h3-fontsize);
+              background-color: var(--color-primary);
+              padding: 1rem;
+              border-radius: 0.5rem;
+              color: #fff;
+            }
           }
         }
       }
     }
   }
-}
   .popular-cities {
     .row {
       .card {
@@ -327,7 +328,7 @@ header {
       position: relative;
       border: 0.15rem solid var(--color-primary);
       display: inline-block;
-      
+
       // &.trade-courses-card {
       //   background: url("../img/study-in-aus-card-1.webp");
       //   background-size: cover;
@@ -352,47 +353,42 @@ header {
       //   background-repeat: no-repeat;
       //   background-blend-mode: normal;
       // }
-     
+
       .card-body {
-        h3{
+        h3 {
           margin-top: 1rem;
         }
         .bordered-icon {
           position: absolute;
-        top: -1rem;
-        padding: 1rem 2rem;
-        font-size: var(--h3-fontsize);
-        background: var(--color-primary);
-        color: #fff;
-        width: fit-content;
+          top: -1rem;
+          padding: 1rem 2rem;
+          font-size: var(--h3-fontsize);
+          background: var(--color-primary);
+          color: #fff;
+          width: fit-content;
           i {
-        position: relative;
-       
+            position: relative;
+          }
+          &::before {
+            position: absolute;
+            content: "";
+            right: -2px;
+            bottom: -2px;
+            border-bottom: 2rem solid var(--color-primary);
+            border-left: 2rem solid transparent;
+          }
+          &::after {
+            position: absolute;
+            content: "";
+            right: -2px;
+            bottom: -2px;
+            border-bottom: 2.5rem solid white;
+            border-left: 3rem solid transparent;
+          }
+        }
       }
-      &::before {
-        position: absolute;
-        content: "";
-        right: -2px;
-        bottom: -2px;
-        border-bottom: 2rem solid var(--color-primary);
-        border-left: 2rem solid transparent;
-      }
-      &::after {
-        position: absolute;
-        content: "";
-        right: -2px;
-        bottom: -2px;
-        border-bottom: 2.5rem solid white;
-        border-left: 3rem solid transparent;
-      }
-     
-     
-      
     }
-    }
-  
   }
-}
 }
 .call-to-action {
   text-align: center;
@@ -431,7 +427,7 @@ header {
         background-color: var(--color-primary);
         color: #fff;
         padding: 3rem 8rem;
-       
+
         justify-content: space-between;
         @media (max-width: 576px) {
           padding: 2rem;
@@ -585,7 +581,6 @@ header {
       }
     }
   }
-  
 }
 .pathways-programs {
   .hero {
@@ -935,7 +930,7 @@ header {
   //     }
   //   }
   // }
-  
+
   .why-abroad {
     .col {
       text-align: center;
@@ -1041,5 +1036,11 @@ header {
       margin: 3rem auto;
       text-align: center;
     }
+  }
+}
+.other-services {
+  .row {
+    align-items: center;
+    margin-top: 4rem;
   }
 }
