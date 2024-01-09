@@ -96,17 +96,7 @@ class MyFooter extends HTMLElement {
             <div class="card">
               <div class="card-body">
                 <h2>CONTACT DETAILS</h2>
-                <div class="row info-row">
-                  <div class="col-2 col-lg-2">
-                    <a href="tel:+9779823430360" class="stretched-link"
-                      ><i class="bi bi-telephone"></i
-                    ></a>
-                  </div>
-                  <div class="col-9 col-lg-10">
-                    <h4>Give us a call</h4>
-                    <p><b>9823430360</b></p>
-                  </div>
-                </div>
+                
                 <div class="row info-row">
                   <div class="col-2 col-lg-2">
                     <i class="bi bi-messenger"></i
@@ -151,8 +141,8 @@ class MyFooter extends HTMLElement {
                     >
                   </div>
                   <div class="col-9 col-lg-10">
-                    <h4>TUNG CHOI STREET, MONGKOK,</h4>
-                    <p>KOWLOON, HONG KONG</p>
+                    <h4>71-75 Shelton St, London WC2H 9JQ, </h4>
+                    <p>United Kingdom</p>
                   </div>
                 </div>
               </div>
@@ -171,7 +161,7 @@ class MyFooter extends HTMLElement {
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-3">
-            <h3><a href="index.html"><img width="150px" src="./img/migratu-logo.webp" /></a></h3>
+            <h3><a href="index.html"><img width="150px" src="./img/migradas-logo.webp" /></a></h3>
             <p>
             We offer a range of services related to studying or migrating to different countries
               as easily and efficiently as possible.
@@ -207,7 +197,7 @@ class MyFooter extends HTMLElement {
           <div class="col-12 col-lg-3">
             <h3>Contact</h3>
             <ul>
-              <li><a href="tel:+9779823430360">Number: 9823430360</a></li>
+              
               <li><a href="mailto:info@migradas.com">Email: info@migradas.com</a></li>
               <li><a href="mailto:rajnitabhetwal10@gmail.com">Email: rajnitabhetwal10@gmail.com</a></li>
             </ul>

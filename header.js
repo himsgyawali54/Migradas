@@ -3,8 +3,8 @@ class MyHeader extends HTMLElement {
     this.innerHTML = `
     <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html"><img width="130px" src="./img/migratu-logo.webp" /></a>
+      <nav class="navbar navbar-expand-lg py-4">
+        <a class="navbar-brand" href="index.html"><img width="150px" src="./img/migradas-logo.webp" /></a>
         <button
           class="navbar-toggler"
           type="button"
