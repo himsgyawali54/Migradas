@@ -174,8 +174,9 @@ class MyFooter extends HTMLElement {
               <li><a href="pathways-programs.html">Pathway Programs</a></li>
               <li><a href="visas.html">Visas</a></li>
               <li><a href="about.html">About US</a></li>
+              <li><a href="other-services.html">Others Services</a></li>
               <li><a href="support.html">Support</a></li>
-              <li><a href="enroll-now.html">Enroll Now</a></li>
+              
             </ul>
             <!-- <div class="social-media">
               <ul>
