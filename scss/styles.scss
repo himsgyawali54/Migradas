@@ -170,7 +170,7 @@ header {
       background-color: var(--color-terniary);
     }
     .row:first-of-type {
-      padding: 6rem 0;
+      padding: 4rem 0 5rem;
       span {
         font-size: var(--h3-fontsize);
         color: var(--color-primary);
@@ -994,7 +994,7 @@ header {
     }
   }
 }
-.enroll-now {
+.other-service {
   .hero {
     padding: 7rem 0;
     background-blend-mode: overlay;
@@ -1041,6 +1041,9 @@ header {
 .other-services {
   .row {
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 3rem;
+    h3{
+      padding-bottom: 1rem;
+    }
   }
 }
