@@ -3,19 +3,9 @@ class MyFooter extends HTMLElement {
     this.innerHTML = ` 
       <footer id="contact-us">      
       <section class="contact-us-info">
-      <div class="container-fluid ">
-        <div class="row get-in-touch">
-        <div class="col-12 col-md-6">
-          <h2>GET IN TOUCH</h2>
-          <p>
-          For Any Queries, Reach Out to Our Team of Experienced Migration Experts.
-          </p>
-          </div>
-          <div class="col-12 col-md-3">
-          <a href="support.html" class="btn-all">CONTACT US</a></div>
-        </div>
-      </div>
+      
       <div class="container">
+      <h2 class="big-heading"><span>Contact  </span> Us</h2>
         <div class="row row-cols-1 row-cols-lg-2 contact-row">
         <form
             action="https://formsubmit.co/rajnitabhetwal10@gmail.com"
@@ -175,7 +165,7 @@ class MyFooter extends HTMLElement {
               <li><a href="visas.html">Visas</a></li>
               <li><a href="about.html">About US</a></li>
               <li><a href="other-services.html">Others Services</a></li>
-              <li><a href="support.html">Support</a></li>
+              <li><a href="contact.html">Support</a></li>
               
             </ul>
             <!-- <div class="social-media">

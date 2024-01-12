@@ -1,21 +1,21 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
 :root {
   font-size: 62.5%;
-  --color-primary: #ff6c22;
+  --color-primary: #E85C2A;
   --color-secondary: #ffcb71;
   --color-accent: #9d6400;
   --color-terniary: #333;
-  --color-text: #666;
+  --color-text: #2c2c2cd8;
   --background-color-grey: #f6f6f6;
-  --card-box-shadow: 6px 6px 18px 0px rgba(0, 0, 0, 0.3);
+  --card-box-shadow: 2px 2px 5px 0px rgba(92, 91, 91, 0.3);
   --border-radius-all: 1rem;
   --border-radius-btn: 10rem;
-  --h1-fontsize: clamp(2.7rem, 3.3vw, 7rem);
-  --h2-fontsize: clamp(2.4rem, 2.2vw, 4.5rem);
-  --h3-fontsize: clamp(2rem, 1.5vw, 3.8rem);
-  --p-h4-fontsize: clamp(1.5rem, 1.2vw, 3rem);
+  --h1-fontsize: clamp(2.7rem, 3.6vw, 7rem);
+  --h2-fontsize: clamp(2.3rem, 2.0vw, 4rem);
+  --h3-fontsize: clamp(2rem, 1.7vw, 3.8rem);
+  --p-h4-fontsize: clamp(1.5rem, 1.25vw, 3rem);
   --h5-fontsize: clamp(1.3rem, 1vw, 2.5rem);
   --h6-fontsize: clamp(1.1rem, 0.8vw, 2rem);
 }
@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   overflow-x: hidden;
   line-height: 1.6;
@@ -49,6 +49,7 @@ h1 {
   font-size: var(--h1-fontsize);
   font-weight: 700;
   margin-bottom: 1rem;
+  line-height: 6.2rem;
 }
 h1 span {
   color: var(--color-accent);
@@ -173,11 +174,8 @@ header nav .nav-item .nav-link {
 }
 
 .index .hero {
-  background: url("../img/migradas-hero.jpg"), linear-gradient(135deg, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0) 60%);
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
+  background-color: #FEF8F5;
+  color: #4E4039;
 }
 @media (max-width: 576px) {
   .index .hero {
@@ -185,15 +183,17 @@ header nav .nav-item .nav-link {
     background-color: var(--color-terniary);
   }
 }
-.index .hero .row:first-of-type {
-  padding: 4rem 0 5rem;
+.index .hero .row {
+  justify-content: space-around;
+  align-items: center;
 }
-.index .hero .row:first-of-type span {
-  font-size: var(--h3-fontsize);
+.index .hero .row span {
   color: var(--color-primary);
 }
-.index .hero .row:first-of-type p {
-  color: #fff;
+.index .hero .row p {
+  color: var(--color-text);
+  font-size: calc(var(--p-h4-fontsize) + 0.2rem);
+  padding: 1rem 0 2rem;
 }
 .index .hero .row:last-of-type .card {
   text-align: center;
@@ -209,6 +209,107 @@ header nav .nav-item .nav-link {
 .index .hero .row:last-of-type .card p {
   text-align: center;
   margin: 1rem 0;
+}
+.index .discover-sociomizly .row-cols-1 {
+  padding-top: 1rem;
+}
+.index .discover-sociomizly .row-cols-1 .col {
+  padding: 0 2rem;
+}
+.index .discover-sociomizly .row-cols-1 .col .card {
+  padding: 0;
+}
+.index .discover-sociomizly .row-cols-1 .col .card .card-body {
+  padding: 1rem;
+}
+.index .discover-sociomizly .row-cols-1 .col .card .card-body .card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.index .discover-sociomizly .row-cols-1 .col .card .card-body .card-heading h3 {
+  font-size: 3rem;
+}
+.index .discover-sociomizly .row-cols-1 .col .card .card-body .card-heading i {
+  color: var(--color-primary);
+  font-size: var(--h2-fontsize);
+}
+.index .discover-sociomizly .row-cols-1 .col .card .card-body p {
+  font-weight: 600;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+.index .our-services {
+  background-color: #FEF8F5;
+}
+.index .our-services .row {
+  padding: 2rem 0;
+}
+.index .our-services .row .card {
+  transition: transform 0.3s ease-in-out;
+  border-bottom: 2px solid var(--color-primary);
+}
+.index .our-services .row .card:hover {
+  transform: scale(1.03);
+}
+.index .our-services .row .card .card-body hr {
+  width: 2rem;
+  opacity: 0.2;
+}
+.index .our-services .row .card .card-body i {
+  color: var(--color-primary);
+  font-size: var(--h1-fontsize);
+}
+.index .our-services .row .card .card-body h3 {
+  margin: 1.5rem 0;
+}
+.index .how-we-work {
+  background-color: #FEF8F5;
+}
+.index .how-we-work .nav {
+  padding: 2rem 0;
+}
+.index .how-we-work .nav .nav-link {
+  position: relative;
+  font-size: calc(var(--h3-fontsize) - 0.3rem);
+  position: relative;
+  transition: all 0.4s ease;
+}
+.index .how-we-work .nav .nav-link.active {
+  background-color: var(--color-primary);
+}
+.index .how-we-work .nav .nav-link.active::before {
+  opacity: 1;
+  visibility: visible;
+}
+.index .how-we-work .nav .nav-link::before {
+  position: absolute;
+  content: "";
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px;
+  width: 40px;
+  border-top: solid var(--color-primary);
+  border-left: solid transparent;
+  border-right: solid transparent;
+  border-width: 20px;
+  filter: drop-shadow(0 5px 3px rgba(3, 27, 78, 0.08));
+  transition: all 0.4s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.index .how-we-work .nav button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.index .how-we-work .nav button i {
+  text-align: center;
+  font-size: var(--h3-fontsize);
 }
 .index .visas-to-abroad .row .card {
   height: 100%;
@@ -324,6 +425,25 @@ header nav .nav-item .nav-link {
   font-size: var(--h2-fontsize);
   margin-bottom: 3rem;
 }
+.index .faq .row {
+  margin-top: 2rem;
+}
+.index .faq .row .accordion .accordion-item {
+  margin-bottom: 2rem;
+  border-radius: 1.5rem;
+  border-bottom: 2px solid;
+  border-color: var(--color-secondary);
+}
+.index .faq .row .accordion .accordion-item .accordion-button {
+  font-size: 1.8rem;
+  padding: 2rem 2rem 2rem 3rem;
+  background-color: rgba(230, 227, 222, 0.205);
+  position: relative;
+}
+.index .faq .row .accordion .accordion-item .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .study-in-abroad .row .card {
   height: 100%;
@@ -372,15 +492,17 @@ header nav .nav-item .nav-link {
   background-blend-mode: overlay;
   background-position: 50%;
   background-repeat: no-repeat;
+  margin-top: 5rem;
 }
 .call-to-action.cta-2 {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background: url("../img/call-to-action-bg-2.webp");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 5rem;
 }
 .call-to-action h2 {
   font-size: var(--h1-fontsize);
@@ -930,10 +1052,15 @@ header nav .nav-item .nav-link {
   }
 }
 
-.other-services .row {
-  align-items: center;
-  margin-top: 3rem;
+.why-us p {
+  margin-bottom: 0;
 }
-.other-services .row h3 {
+.why-us .row {
+  align-items: center;
+}
+.why-us .row h3 {
   padding-bottom: 1rem;
+}
+.why-us .row p {
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=styles.min.css.map */
