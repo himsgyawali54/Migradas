@@ -6,7 +6,68 @@ class MyFooter extends HTMLElement {
       
       <div class="container">
       <h2 class="big-heading"><span>Contact  </span> Us</h2>
-        <div class="row row-cols-1 row-cols-lg-2 contact-row">
+        <div class="row row-cols-1 row-cols-lg-2 contact-row gap-5">
+        <div class="col-md-7 col-lg-4 contact-detail-card">
+            <div class="card">
+              <div class="card-body">
+                <h2>CONTACT DETAILS</h2>
+                
+               
+                <div class="row info-row">
+                  <div class="col-2 col-lg-2">
+                    <i class="bi bi-whatsapp"></i
+                    >
+                  </div>
+                  <div class="col-9 col-lg-10">
+                    <h4>Chat Via Whatsapp</h4>
+                  </div>
+                </div>
+                <div class="row info-row">
+                  <div class="col-2 col-lg-2">
+                    <a href="mailto:info@migradas.com" class="stretched-link"
+                      ><i class="bi bi-envelope"></i
+                    ></a>
+                  </div>
+                  <div class="col-9 col-lg-10">
+                    <h4>Send an Email</h4>
+                    <p>info@migradas.com</p>
+                  </div>
+                </div>
+                <div class="row info-row">
+                  <div class="col-2 col-lg-2">
+                    <i class="bi bi-whatsapp"></i
+                    >
+                  </div>
+                  <div class="col-9 col-lg-10">
+                    <h4>Chat Via Whatsapp</h4>
+                  </div>
+                </div>
+                <div class="row info-row">
+                  <div class="col-2 col-lg-2">
+                    <i class="bi bi-people-fill"></i>
+                  </div>
+                  <div class="col-9 col-lg-10">
+                    <h4>Book a consultation</h4>
+                  </div>
+                </div>
+
+                <div class="row info-row">
+                  <div class="col-2 col-lg-2">
+                    <i class="bi bi-geo-alt"></i
+                    >
+                  </div>
+                  <div class="col-9 col-lg-10">
+                    <h4>71-75 Shelton St, London WC2H 9JQ, </h4>
+                    <p>United Kingdom</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              
+              
+           <div class="card">
+           <div class="card-body">   
         <form
             action="https://formsubmit.co/rajnitabhetwal10@gmail.com"
             method="POST"
@@ -66,78 +127,19 @@ class MyFooter extends HTMLElement {
               </div>
             </div>
 
-            <input
-              type="number"
-              name="Age"
-              class="form-control"
-              placeholder="Age"
-            />
-
+           
             <textarea
               name="Message"
               class="form-control"
               placeholder="Message"
-              rows="5"
+              rows="6"
             ></textarea>
 
             <button class="btn-all" type="submit">Submit</button>
           </form>
-        <div class="col-md-7 col-lg-4 contact-detail-card">
-            <div class="card">
-              <div class="card-body">
-                <h2>CONTACT DETAILS</h2>
-                
-                <div class="row info-row">
-                  <div class="col-2 col-lg-2">
-                    <i class="bi bi-messenger"></i
-                    >
-                  </div>
-                  <div class="col-9 col-lg-10">
-                    <h4>Chat Via Messenger</h4>
-                  </div>
-                </div>
-                <div class="row info-row">
-                  <div class="col-2 col-lg-2">
-                    <i class="bi bi-whatsapp"></i
-                    >
-                  </div>
-                  <div class="col-9 col-lg-10">
-                    <h4>Chat Via Whatsapp</h4>
-                  </div>
-                </div>
-                <div class="row info-row">
-                  <div class="col-2 col-lg-2">
-                    <a href="mailto:info@migradas.com" class="stretched-link"
-                      ><i class="bi bi-envelope"></i
-                    ></a>
-                  </div>
-                  <div class="col-9 col-lg-10">
-                    <h4>Send an Email</h4>
-                    <p>info@migradas.com</p>
-                  </div>
-                </div>
-                <div class="row info-row">
-                  <div class="col-2 col-lg-2">
-                    <i class="bi bi-people-fill"></i>
-                  </div>
-                  <div class="col-9 col-lg-10">
-                    <h4>Book a consultation</h4>
-                  </div>
-                </div>
-
-                <div class="row info-row">
-                  <div class="col-2 col-lg-2">
-                    <i class="bi bi-geo-alt"></i
-                    >
-                  </div>
-                  <div class="col-9 col-lg-10">
-                    <h4>71-75 Shelton St, London WC2H 9JQ, </h4>
-                    <p>United Kingdom</p>
-                  </div>
-                </div>
-              </div>
-              </div>
-              </div>
+          </div>
+          </div>
+        
              
           
          

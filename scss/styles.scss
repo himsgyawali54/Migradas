@@ -568,38 +568,36 @@ header {
 #contact-us {
   margin-top: 2rem;
   .contact-us-info {
-    .container-fluid {
-      .get-in-touch {
-        margin-bottom: 3rem;
-        background-color: var(--color-primary);
-        color: #fff;
-        padding: 3rem 8rem;
-
-        justify-content: space-between;
-        @media (max-width: 576px) {
-          padding: 2rem;
-        }
-        p {
-          color: #fff;
-          margin: 0;
-        }
-      }
-    }
+    padding: 2rem 0 5rem;
+   
+    background-color: #FEF8F5;
+    
+    
     .container {
       .contact-row {
+        margin-top: .5rem;
         align-items: center;
+        .card{
+          border-radius: 0;
+          border-top: 2px solid var(--color-primary);
+          border-bottom: 2px solid var(--color-primary);
+          box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+        }
       }
       .row {
         --bs-gutter-x: 3rem;
         --bs-gutter-y: 3rem;
-        justify-content: space-around;
+        justify-content: center;
+        
+       
 
         @media (max-width: 576px) {
           --bs-gutter-x: 1.5rem;
           --bs-gutter-y: 1.5rem;
         }
 
-        form {
+        form { 
+         padding: .73rem 0;
           input,
           textarea {
             margin-bottom: 1.5rem;
@@ -614,9 +612,10 @@ header {
         }
         .contact-detail-card {
           @media (min-width: 991px) {
-            margin-top: 5rem;
+            
           }
           .card {
+            border-radius: 0;
             h3 {
               text-align: center;
             }
@@ -650,19 +649,21 @@ header {
     }
   }
   .footer-form {
-    background-color: var(--color-text);
+    padding: 5rem 0 0;
+   background-color: #fff;
     h3 {
-      color: #fff;
+      color: var(--color-text);
     }
     .row {
+      padding: 2rem 0 4rem;
       justify-content: space-around;
       .col-lg-3 {
         p {
-          color: #fff;
-          font-size: var(--h5-fontsize);
+          color: var(--color-text);
+          
         }
         li {
-          color: #fff;
+          color: #000;
           list-style: none;
           font-size: var(--h5-fontsize);
         }
@@ -679,10 +680,11 @@ header {
       }
     }
     .copyright {
-      color: #fff;
+      color: var(--color-text);
       text-align: center;
-      font-size: var(--h5-fontsize);
-      padding: 2rem 0 0;
+      background-color: #fef8f5da;
+     
+      padding: 3rem 0 0;
     }
   }
 }
