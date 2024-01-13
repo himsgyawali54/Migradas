@@ -152,7 +152,7 @@ class MyFooter extends HTMLElement {
     <section class="footer-form">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-3">
+          <div class="col-12 col-lg-4">
             <h3><a href="index.html"><img width="150px" src="./img/migradas-logo.webp" /></a></h3>
             <p>
             We offer a range of services related to studying or migrating to different countries
@@ -163,11 +163,10 @@ class MyFooter extends HTMLElement {
             <h3>Quick Links</h3>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="pathways-programs.html">Pathway Programs</a></li>
-              <li><a href="visas.html">Visas</a></li>
+              <li><a href="service.html">Service</a></li>
               <li><a href="about.html">About US</a></li>
-              <li><a href="other-services.html">Others Services</a></li>
-              <li><a href="contact.html">Support</a></li>
+              
+              <li><a href="contact.html">Contact Us</a></li>
               
             </ul>
             <!-- <div class="social-media">
@@ -187,17 +186,19 @@ class MyFooter extends HTMLElement {
               </ul>
             </div> -->
           </div>
+          
           <div class="col-12 col-lg-3">
             <h3>Contact</h3>
             <ul>
               
-              <li><a href="mailto:info@migradas.com">Email: info@migradas.com</a></li>
-              <li><a href="mailto:rajnitabhetwal10@gmail.com">Email: rajnitabhetwal10@gmail.com</a></li>
+              <li><a href="mailto:info@sociomizly.com">Email: info@sociomizly.com</a></li>
+              <li>Phone: +1 5589 55488 55</li>
+             
             </ul>
           </div>
         </div>
         <p class="copyright">
-          Copyright @ 2024 - Migradas- All rights reserved
+          Copyright @ 2024 - SocioMizly- All rights reserved
         </p>
       </div>
     </section></footer>

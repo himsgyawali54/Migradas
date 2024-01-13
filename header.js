@@ -21,25 +21,19 @@ class MyHeader extends HTMLElement {
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
+            
             <li class="nav-item">
-              <a class="nav-link" href="study-abroad.html">Study Abroad</a>
+              <a class="nav-link" href="service.html"> Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pathways-programs.html"
-                >Pathway Programs</a
-              >
+              <a class="nav-link" href="about.html">About Us</a>
             </li>
+            
             <li class="nav-item">
-              <a class="nav-link" href="visas.html">Visas</a>
+              <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="other-services.html">Other Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Support</a>
+            <li>
+            <a class="btn-all" type="submit">Get Started</a>
             </li>
             
           </ul>
