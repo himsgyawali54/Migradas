@@ -4,7 +4,7 @@
 :root {
   font-size: 62.5%;
   --color-primary: #e85c2a;
-  --color-secondary: #ffcb71;
+  --color-secondary: #204666;
   --color-accent: #9d6400;
   --color-terniary: #333;
   --color-text: #2c2c2cd8;
@@ -106,6 +106,11 @@ img {
   border-radius: var(--border-radius-btn);
   border: 1px solid var(--color-primary);
   font-weight: 500;
+  &:hover{
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    transition: all 0.4s ease-out;
+  }
 }
 header {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
@@ -130,7 +135,7 @@ header {
   font-size: var(--h1-fontsize);
   color: var(--color-text);
   span {
-    color: var(--color-primary);
+    color: var(--color-secondary);
   }
   + p {
     margin-bottom: 3rem;
@@ -168,22 +173,20 @@ header {
 .index {
   .hero {
     background-color: #fef8f5;
-    // background: url("../img/migradas-hero.jpg"),
-    //   linear-gradient(135deg, rgba(0, 0, 0, 0.35) 50%, rgba(0, 0, 0, 0) 60%);
-    // background-blend-mode: overlay;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    
     color: #4e4039;
     @media (max-width: 576px) {
-      background: none;
-      background-color: var(--color-terniary);
+      h1{
+        line-height: 4rem;
+      }
+     
     }
     .row {
       justify-content: space-around;
       align-items: center;
 
       span {
-        color: var(--color-primary);
+        color: var(--color-secondary);
       }
       p {
         color: var(--color-text);
@@ -242,32 +245,7 @@ header {
       }
     }
   }
-  .our-services {
-    background-color: #fef8f5;
-    .row {
-      padding: 2rem 0;
-      .card {
-        transition: transform 0.3s ease-in-out;
-        border-bottom: 2px solid var(--color-primary);
-        &:hover {
-          transform: scale(1.03);
-        }
-        .card-body {
-          hr {
-            width: 2rem;
-            opacity: 0.2;
-          }
-          i {
-            color: var(--color-primary);
-            font-size: var(--h1-fontsize);
-          }
-          h3 {
-            margin: 1.5rem 0;
-          }
-        }
-      }
-    }
-  }
+ 
   .how-we-work {
     background-color: #fef8f5;
     .nav {
@@ -440,6 +418,7 @@ header {
     }
   }
   .faq {
+    padding-bottom: 1.5rem;
     .row {
       margin-top: 2rem;
       .accordion {
@@ -447,7 +426,7 @@ header {
           margin-bottom: 2rem;
           border-radius: 1.5rem;
           border-bottom: 2px solid;
-          border-color: var(--color-secondary);
+          border-color: #f5c064;
           .accordion-button {
             font-size: 1.8rem;
             padding: 2rem 2rem 2rem 3rem;
@@ -463,6 +442,97 @@ header {
       }
     }
   }
+}
+.our-services {
+  background-color: #fef8f5;
+  .row {
+    
+    @media(min-width:991px){
+      &:first-of-type{
+        padding-top: 6.5rem;
+      }
+
+    }
+    
+    padding: 5rem 0 3rem;
+    .card {
+      position: relative;
+      height: 100%;
+      border-radius: 0;
+      transition: transform 0.3s ease-in-out;
+      border-bottom: 2px solid var(--color-primary);
+      
+      .card-body {
+        hr {
+          width: 2rem;
+          opacity: 0.2;
+        }
+        i {
+          color: #fff;
+          font-size: calc(var(--h2-fontsize) + .8rem) ;
+        }
+        h3 {
+          margin: 3rem 0 2rem;
+        }
+        .icon-heading{
+          background-color: var(--color-primary);
+          width: fit-content;
+          padding:1.3rem;
+          border-radius: 50%;
+          position: absolute;
+          top: -10%;
+          right: 50%;
+         
+        }
+        @media(max-width:768px){
+      
+          .icon-heading{
+            background-color: var(--color-primary);
+            width: fit-content;
+            padding:1.3rem;
+            border-radius: 50%;
+            position: absolute;
+            top: -5%;
+            right: 50%;
+          }
+      
+      }
+      }
+      &:hover {
+        transform: scale(1.03);
+        .icon-heading{
+          background-color: #fff;
+          border: 3px solid #f27c5235;
+          
+        }
+        i {
+          color: var(--color-primary);
+          
+        }
+      }
+    }
+   
+    
+  }
+  @media(max-width:991px){
+    .row{
+      padding: 3rem 0;
+      .col-12{
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  @media(max-width: 768px){
+    .row{
+      padding: 2rem 0;
+      .col-12{
+        margin-bottom: 2rem;
+        
+      }
+      
+    }
+  }
+  
 }
 .study-in-abroad {
   .row {
@@ -567,7 +637,7 @@ header {
 #contact-us {
   margin-top: 2rem;
   .contact-us-info {
-    padding: 4rem 0 5rem;
+    padding: 2rem 0 8rem;
 
     background-color: #fff;
 
@@ -1005,7 +1075,8 @@ header {
     }
   }
 }
-.how-we-help {
+.our-feature {
+ 
   .card {
     height: 100%;
     text-align: center;
@@ -1017,9 +1088,15 @@ header {
       margin: 2rem 0;
     }
     p {
-      font-size: var(--h5-fontsize);
+      font-size: calc(var(--h5-fontsize) + 2.2px) ;
       text-align: center;
     }
+  }
+}
+@media(max-width:768px){
+  .our-feature{
+    padding: 2rem 0;
+
   }
 }
 .study-abroad-main {
@@ -1123,7 +1200,7 @@ header {
     background: url("../img/other-bg.webp") 50%,
       linear-gradient(
         180deg,
-        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.686) 0%,
         rgba(255, 255, 255, 0) 100%
       );
     background-repeat: no-repeat;
@@ -1138,6 +1215,13 @@ header {
       margin: 3rem auto;
       text-align: center;
     }
+  }
+}
+.what-sets-as-apart{
+  background-color: #fef8f5;
+  padding: 5rem 0 4rem;
+  h2{
+    margin-bottom: 2rem;
   }
 }
 .other-service {

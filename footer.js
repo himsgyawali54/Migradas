@@ -24,22 +24,21 @@ class MyFooter extends HTMLElement {
                 </div>
                 <div class="row info-row">
                   <div class="col-2 col-lg-2">
-                    <a href="mailto:info@migradas.com" class="stretched-link"
+                    <a href="mailto:info@sociomizly.com" class="stretched-link"
                       ><i class="bi bi-envelope"></i
                     ></a>
                   </div>
                   <div class="col-9 col-lg-10">
                     <h4>Send an Email</h4>
-                    <p>info@migradas.com</p>
+                    <p>info@sociomizly.com</p>
                   </div>
                 </div>
                 <div class="row info-row">
                   <div class="col-2 col-lg-2">
-                    <i class="bi bi-whatsapp"></i
-                    >
+                  <i class="bi bi-alarm"></i>
                   </div>
                   <div class="col-9 col-lg-10">
-                    <h4>Chat Via Whatsapp</h4>
+                    <h4>Sun-Fri (Open Hours)</h4>
                   </div>
                 </div>
                 <div class="row info-row">
@@ -153,16 +152,15 @@ class MyFooter extends HTMLElement {
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4">
-            <h3><a href="index.html"><img width="150px" src="./img/migradas-logo.webp" /></a></h3>
+            <h3><a href="/"><img width="150px" src="./img/migradas-logo.webp" /></a></h3>
             <p>
-            We offer a range of services related to studying or migrating to different countries
-              as easily and efficiently as possible.
+            With a commitment to excellence, transparency, and tailored solutions, SocioMizly is your partner for digital success.
             </p>
           </div>
           <div class="col-12 col-lg-3">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="service.html">Service</a></li>
               <li><a href="about.html">About US</a></li>
               
