@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
     <header class="sticky-top">
     <div class="container">
       <nav class="navbar navbar-expand-lg py-4">
-        <a class="navbar-brand" href="/"><img width="150px" src="./img/migradas-logo.webp" /></a>
+        <a class="navbar-brand" href="/"><img  src="./img/.webp" /></a>
         <button
           class="navbar-toggler"
           type="button"

@@ -152,7 +152,7 @@ class MyFooter extends HTMLElement {
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-4">
-            <h3><a href="/"><img width="150px" src="./img/migradas-logo.webp" /></a></h3>
+            <h3><a href="/"><img  src="#" /></a></h3>
             <p>
             With a commitment to excellence, transparency, and tailored solutions, SocioMizly is your partner for digital success.
             </p>
